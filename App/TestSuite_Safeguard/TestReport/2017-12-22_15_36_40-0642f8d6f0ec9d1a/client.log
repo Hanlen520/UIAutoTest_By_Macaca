@@ -1,0 +1,36 @@
+2017-12-22 15:36:44,254 - 0642f8d6f0ec9d1a - INFO - platformName: Android
+2017-12-22 15:36:44,256 - 0642f8d6f0ec9d1a - INFO - udid: 0642f8d6f0ec9d1a
+2017-12-22 15:36:44,256 - 0642f8d6f0ec9d1a - INFO - macaca server port: 3463
+
+2017-12-22 15:37:17,678 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUpClass
+2017-12-22 15:37:17,679 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUpClass, Success
+
+2017-12-22 15:37:17,679 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-22 15:37:17,680 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-22 15:37:17,680 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.test01_login
+2017-12-22 15:37:20,181 - 0642f8d6f0ec9d1a - ERROR - WebDriverException, 
+Error: WebDriverError.UNKNOWN_ERROR
+Message: An unknown server-side error occurred while processing the command.
+
+2017-12-22 15:37:20,182 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.test01_login, WebDriverException, Error
+
+2017-12-22 15:37:20,832 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-22 15:37:20,832 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-22 15:37:20,835 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-22 15:37:20,835 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-22 15:37:20,835 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.test02_erroe
+2017-12-22 15:37:22,218 - 0642f8d6f0ec9d1a - ERROR - WebDriverException, 
+Error: WebDriverError.INVALID_SELECTOR
+Message: Argument was an invalid selector (e.g. XPath/CSS).
+
+2017-12-22 15:37:22,220 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.test02_erroe, WebDriverException, Error
+
+2017-12-22 15:37:22,856 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-22 15:37:22,857 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-22 15:37:22,857 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDownClass
+2017-12-22 15:37:22,858 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDownClass, Success
+

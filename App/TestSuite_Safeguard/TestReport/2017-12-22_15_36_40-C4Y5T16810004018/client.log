@@ -1,0 +1,32 @@
+2017-12-22 15:36:46,257 - C4Y5T16810004018 - INFO - platformName: Android
+2017-12-22 15:36:46,258 - C4Y5T16810004018 - INFO - udid: C4Y5T16810004018
+2017-12-22 15:36:46,258 - C4Y5T16810004018 - INFO - macaca server port: 3465
+
+2017-12-22 15:36:58,489 - C4Y5T16810004018 - INFO - --> Bootstrap.setUpClass
+2017-12-22 15:36:58,491 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUpClass, Success
+
+2017-12-22 15:36:58,491 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-22 15:36:58,491 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-22 15:36:58,492 - C4Y5T16810004018 - INFO - --> Bootstrap.test01_login
+2017-12-22 15:37:02,558 - C4Y5T16810004018 - INFO - <-- Bootstrap.test01_login, Success
+
+2017-12-22 15:37:02,558 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-22 15:37:02,558 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-22 15:37:02,559 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-22 15:37:02,559 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-22 15:37:02,560 - C4Y5T16810004018 - INFO - --> Bootstrap.test02_erroe
+2017-12-22 15:37:03,633 - C4Y5T16810004018 - ERROR - WebDriverException, 
+Error: WebDriverError.INVALID_SELECTOR
+Message: Argument was an invalid selector (e.g. XPath/CSS).
+
+2017-12-22 15:37:03,634 - C4Y5T16810004018 - ERROR - <-- Bootstrap.test02_erroe, WebDriverException, Error
+
+2017-12-22 15:37:04,345 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-22 15:37:04,345 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-22 15:37:04,348 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDownClass
+2017-12-22 15:37:04,349 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDownClass, Success
+

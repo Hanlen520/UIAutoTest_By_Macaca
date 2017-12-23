@@ -1,0 +1,103 @@
+>> index.js:18:12 [master] pid:14467 webdriver server start with config:
+ { port: 3463,
+  verbose: true,
+  always: true,
+  ip: '172.16.120.20',
+  host: 'testdeMac-mini.local',
+  loaded_time: '2017-12-22 15:36:43' }
+>> middlewares.js:17:10 [master] pid:14467 base middlewares attached
+>> router.js:133:10 [master] pid:14467 router set
+>> webdriver sdk launched
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:36:43]: method: GET url: /wd/hub/status, jsonBody: {}
+>> responseHandler.js:49:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:36:43]: {"sessionId":"","status":0,"value":"{\"build\":{},\"os\":{\"arch\":\"x64\",\"name\":\"darwin\",\"version\":\"\"}}"}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:36:44]: method: POST url: /wd/hub/session, jsonBody: {"desiredCapabilities":{"platformName":"Android","udid":"0642f8d6f0ec9d1a","package":"com.github.android_app_bootstrap","activity":".activity.WelcomeActivity"}}
+>> session.js:47:10 [master] pid:14467 Creating session, sessionId: 6005e2cd-f398-4f95-9eba-878e90ea4421.
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.macaca.android.testing.UIAutomatorWD:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=MacacaTestRunner
+INSTRUMENTATION_STATUS: class=com.macaca.android.testing.UIAutomatorWD
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: stream=
+UIAutomatorWD->http://localhost:9007<-UIAutomatorWD
+INSTRUMENTATION_STATUS_CODE: 0
+
+>> UIAutomatorWD http server ready
+>> macaca-android.js:294:10 [master] pid:14467 start app with: {"package":"com.github.android_app_bootstrap","activity":".activity.WelcomeActivity"}
+>> responseHandler.js:49:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:17]: {"sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421","status":0,"value":"{\"platformName\":\"Android\",\"udid\":\"0642f8d6f0ec9d1a\",\"package\":\"com.github.android_app_bootstrap\",\"activity\":\".activity.WelcomeActivity\"}"}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:17]: method: POST url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element, jsonBody: {"using":"name","value":"please input username"}
+>> restart UIAutomatorWD server
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.macaca.android.testing.UIAutomatorWD:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=MacacaTestRunner
+INSTRUMENTATION_STATUS: class=com.macaca.android.testing.UIAutomatorWD
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: stream=
+UIAutomatorWD->http://localhost:9007<-UIAutomatorWD
+INSTRUMENTATION_STATUS_CODE: 0
+
+>> UIAutomatorWD http server ready
+>> proxy.js:55:14 [master] pid:14467 Proxy: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element:POST to http://127.0.0.1:9007/wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element:POST with body: {"using":"name","value":"please input username"}
+>> proxy.js:85:20 [master] pid:14467 Got response with status 200: {"status":0,"value":{"ELEMENT":"1"},"sessionId":null}
+>> session.js:109:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:19]: {"status":0,"value":"{\"ELEMENT\":\"1\"}","sessionId":null}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:19]: method: POST url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element/1/value, jsonBody: {"value":["中文+Test+12345678"]}
+>> restart UIAutomatorWD server
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.macaca.android.testing.UIAutomatorWD:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=MacacaTestRunner
+INSTRUMENTATION_STATUS: class=com.macaca.android.testing.UIAutomatorWD
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: stream=
+UIAutomatorWD->http://localhost:9007<-UIAutomatorWD
+INSTRUMENTATION_STATUS_CODE: 0
+
+>> UIAutomatorWD http server ready
+>> proxy.js:55:14 [master] pid:14467 Proxy: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element/1/value:POST to http://127.0.0.1:9007/wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element/1/value:POST with body: {"value":["中文+Test+12345678"]}
+>> proxy.js:85:20 [master] pid:14467 Got response with status 200: {"status":13,"value":"An unknown server-side error occurred while processing the command.","sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421"}
+>> session.js:109:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:20]: {"status":13,"value":"\"An unknown server-side error occurred while processing the command.\"","sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421"}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:20]: method: GET url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/screenshot, jsonBody: {}
+>> responseHandler.js:49:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:20]: {"sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421","status":0,"value":"\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xl8VOW9P/DPmcmeMJnsZE8IkD1gAoZ9FUSsiiCCCrKDrbZI0d6+bnuF0tvb2ypWsVorClrvLSKbYLWsV2UJYYdAMiFA9oUkkG2yZzLz+4PfTDOZyTKT2Q583q8XL19OkjPP+c4zZ/me5/k+AgANiIiIiIiIiIhETGLvBhARERERERERDRQTHEREREREREQkekxwEBEREREREZHoMcFBRERERERERKLHBAcRERERERERiR4THEREREREREQkekxwEBEREREREZHoMcFBRERERERERKLHBAcRERERERERiR4THEREREREREQkekxw..."}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:20]: method: POST url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element, jsonBody: {"using":"name","value":"Logout"}
+>> restart UIAutomatorWD server
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.macaca.android.testing.UIAutomatorWD:
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: test=MacacaTestRunner
+INSTRUMENTATION_STATUS: class=com.macaca.android.testing.UIAutomatorWD
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+
+>> uiautomator-client.js:61:14 [master] pid:14467 INSTRUMENTATION_STATUS: stream=
+UIAutomatorWD->http://localhost:9007<-UIAutomatorWD
+INSTRUMENTATION_STATUS_CODE: 0
+
+>> UIAutomatorWD http server ready
+>> proxy.js:55:14 [master] pid:14467 Proxy: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element:POST to http://127.0.0.1:9007/wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/element:POST with body: {"using":"name","value":"Logout"}
+>> proxy.js:85:20 [master] pid:14467 Got response with status 200: {"status":32,"value":"Argument was an invalid selector (e.g. XPath/CSS).","sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421"}
+>> session.js:109:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:22]: {"status":32,"value":"\"Argument was an invalid selector (e.g. XPath/CSS).\"","sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421"}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:22]: method: GET url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421/screenshot, jsonBody: {}
+>> responseHandler.js:49:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:22]: {"sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421","status":0,"value":"\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3Xl8VOW9P/DPmcmeMJnsZE8IkD1gAoZ9FUSsiiCCCrKDrbZI0d6+bnuF0tvb2ypWsVorClrvLSKbYLWsV2UJYYdAMiFA9oUkkG2yZzLz+4PfTDOZyTKT2Q583q8XL19OkjPP+c4zZ/me5/k+AgANiIiIiIiIiIhETGLvBhARERERERERDRQTHEREREREREQkekxwEBEREREREZHoMcFBRERERERERKLHBAcRERERERERiR4THEREREREREQkekxwEBEREREREZHoMcFBRERERERERKLHBAcRERERERERiR4THEREREREREQkekxw..."}
+>> responseHandler.js:11:12 [master] pid:14467 Recieve HTTP Request from Client[2017-12-22 15:37:22]: method: DELETE url: /wd/hub/session/6005e2cd-f398-4f95-9eba-878e90ea4421, jsonBody: {}
+>> session.js:80:12 [master] pid:14467 Delete session, sessionId: 6005e2cd-f398-4f95-9eba-878e90ea4421
+>> responseHandler.js:49:14 [master] pid:14467 Send HTTP Respone to Client[2017-12-22 15:37:22]: {"sessionId":"6005e2cd-f398-4f95-9eba-878e90ea4421","status":0}

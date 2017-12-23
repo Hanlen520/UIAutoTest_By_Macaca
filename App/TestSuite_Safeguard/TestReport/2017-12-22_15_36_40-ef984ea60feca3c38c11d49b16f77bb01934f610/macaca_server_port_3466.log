@@ -1,0 +1,93 @@
+>> index.js:18:12 [master] pid:14468 webdriver server start with config:
+ { port: 3466,
+  verbose: true,
+  always: true,
+  ip: '172.16.120.20',
+  host: 'testdeMac-mini.local',
+  loaded_time: '2017-12-22 15:36:43' }
+>> middlewares.js:17:10 [master] pid:14468 base middlewares attached
+>> router.js:133:10 [master] pid:14468 router set
+>> webdriver sdk launched
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:36:44]: method: GET url: /wd/hub/status, jsonBody: {}
+>> responseHandler.js:49:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:36:44]: {"sessionId":"","status":0,"value":"{\"build\":{},\"os\":{\"arch\":\"x64\",\"name\":\"darwin\",\"version\":\"\"}}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:36:48]: method: POST url: /wd/hub/session, jsonBody: {"desiredCapabilities":{"platformName":"iOS","platformVersion":"10.3.3","deviceName":"iPhone","udid":"ef984ea60feca3c38c11d49b16f77bb01934f610","bundleId":"linpc.ios-app-bootstrap"}}
+>> session.js:47:10 [master] pid:14468 Creating session, sessionId: e23ac185-0a9e-4db0-86bc-b86fbd21b5bc.
+/usr/local/lib/node_modules/macaca-ios/node_modules/.0.1.4@ios-device/node_modules/ios-deploy/build/Release/ios-deploy
+>> macaca-ios.js:246:12 [master] pid:14468 App "linpc.ios-app-bootstrap" is already installed.
+>> macaca-ios.js:247:12 [master] pid:14468 Adopting app reuse strategy: 1.
+BundleId XCTestWD.XCTestWD does not exist.
+>> macaca-ios.js:158:10 [master] pid:14468 {
+	"bundleId": "linpc.ios-app-bootstrap",
+	"platformName": "iOS",
+	"platformVersion": "10.3.3"
+}
+>> xctest-client.js:56:14 [master] pid:14468 project path: /usr/local/lib/node_modules/macaca-ios/node_modules/.1.3.12@xctestwd/XCTestWD/XCTestWD.xcodeproj
+>> macaca-ios.js:167:12 [master] pid:14468 Trying to start xctestwd server...
+>> xctest-client.js:242:14 [master] pid:14468 xcode version: 9.2
+>> XCTestWD version: 1.3.12
+>> xctest-client.js:190:18 [master] pid:14468 please check project: /usr/local/lib/node_modules/macaca-ios/node_modules/.1.3.12@xctestwd/XCTestWD/XCTestWD.xcodeproj
+>> xctest-client.js:190:18 [master] pid:14468 please check project: /usr/local/lib/node_modules/macaca-ios/node_modules/.1.3.12@xctestwd/XCTestWD/XCTestWD.xcodeproj
+>> xctest-client.js:190:18 [master] pid:14468 please check project: /usr/local/lib/node_modules/macaca-ios/node_modules/.1.3.12@xctestwd/XCTestWD/XCTestWD.xcodeproj
+>> xctest-client.js:190:18 [master] pid:14468 please check project: /usr/local/lib/node_modules/macaca-ios/node_modules/.1.3.12@xctestwd/XCTestWD/XCTestWD.xcodeproj
+>> xctestwd start with port: 8001
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session:POST to http://localhost:8001/wd/hub/session:POST with body: {"desiredCapabilities":{"bundleId":"linpc.ios-app-bootstrap","platformName":"iOS","platformVersion":"10.3.3"}}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":null,"status":0,"value":{"sessionId":"CF3A3A42-D0CD-449C-BD7E-E211E976A2F9","capabilities":{"browserName":"Bootstrap","device":"iphone","sdkVersion":"10.3.3","CFBundleIdentifier":"linp...
+>> responseHandler.js:49:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:09]: {"sessionId":"e23ac185-0a9e-4db0-86bc-b86fbd21b5bc","status":0,"value":"{\"platformName\":\"iOS\",\"platformVersion\":\"10.3.3\",\"deviceName\":\"iPhone\",\"udid\":\"ef984ea60feca3c38c11d49b16f77bb01934f610\",\"bundleId\":\"linpc.ios-app-bootstrap\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:09]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"please input username"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"please input username"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":{"ELEMENT":"60FAEDFD-51A5-47EB-B9B5-4E883D537ED3","label":"","type":"XCUIElementTypeTextField"}}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:09]: {"sessionId":"","status":0,"value":"{\"ELEMENT\":\"60FAEDFD-51A5-47EB-B9B5-4E883D537ED3\",\"label\":\"\",\"type\":\"XCUIElementTypeTextField\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:09]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/60FAEDFD-51A5-47EB-B9B5-4E883D537ED3/value, jsonBody: {"value":["中文+Test+12345678"]}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/60FAEDFD-51A5-47EB-B9B5-4E883D537ED3/value:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element/60FAEDFD-51A5-47EB-B9B5-4E883D537ED3/value:POST with body: {"value":["中文+Test+12345678"]}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:13]: {"sessionId":"","status":0,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:13]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"please input password"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"please input password"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":{"ELEMENT":"8CC927AB-0F98-4726-8BBF-1409E24CA927","label":"","type":"XCUIElementTypeSecureTextField"}}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:14]: {"sessionId":"","status":0,"value":"{\"ELEMENT\":\"8CC927AB-0F98-4726-8BBF-1409E24CA927\",\"label\":\"\",\"type\":\"XCUIElementTypeSecureTextField\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:14]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/8CC927AB-0F98-4726-8BBF-1409E24CA927/value, jsonBody: {"value":["111111"]}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/8CC927AB-0F98-4726-8BBF-1409E24CA927/value:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element/8CC927AB-0F98-4726-8BBF-1409E24CA927/value:POST with body: {"value":["111111"]}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:17]: {"sessionId":"","status":0,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:17]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"Login"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"Login"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":{"ELEMENT":"14776F2C-03D4-4829-8C25-B066E4F03CC9","label":"Login","type":"XCUIElementTypeButton"}}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:17]: {"sessionId":"","status":0,"value":"{\"ELEMENT\":\"14776F2C-03D4-4829-8C25-B066E4F03CC9\",\"label\":\"Login\",\"type\":\"XCUIElementTypeButton\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:17]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/14776F2C-03D4-4829-8C25-B066E4F03CC9/click, jsonBody: {}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/14776F2C-03D4-4829-8C25-B066E4F03CC9/click:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element/14776F2C-03D4-4829-8C25-B066E4F03CC9/click:POST with body: {}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:19]: {"sessionId":"","status":0,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:19]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"PERSONAL"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"PERSONAL"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":{"ELEMENT":"0BB335D1-219D-40E1-9AAD-0D19BE21916B","label":"PERSONAL","type":"XCUIElementTypeButton"}}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:20]: {"sessionId":"","status":0,"value":"{\"ELEMENT\":\"0BB335D1-219D-40E1-9AAD-0D19BE21916B\",\"label\":\"PERSONAL\",\"type\":\"XCUIElementTypeButton\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:20]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/0BB335D1-219D-40E1-9AAD-0D19BE21916B/click, jsonBody: {}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/0BB335D1-219D-40E1-9AAD-0D19BE21916B/click:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element/0BB335D1-219D-40E1-9AAD-0D19BE21916B/click:POST with body: {}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:21]: {"sessionId":"","status":0,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:21]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"Logout"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"Logout"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":{"ELEMENT":"20E4F51F-3A86-41C8-9025-17F1A84D016D","label":"Logout","type":"XCUIElementTypeButton"}}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:22]: {"sessionId":"","status":0,"value":"{\"ELEMENT\":\"20E4F51F-3A86-41C8-9025-17F1A84D016D\",\"label\":\"Logout\",\"type\":\"XCUIElementTypeButton\"}"}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:22]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/20E4F51F-3A86-41C8-9025-17F1A84D016D/click, jsonBody: {}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element/20E4F51F-3A86-41C8-9025-17F1A84D016D/click:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element/20E4F51F-3A86-41C8-9025-17F1A84D016D/click:POST with body: {}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":0,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:23]: {"sessionId":"","status":0,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:23]: method: POST url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element, jsonBody: {"using":"name","value":"Logout"}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/element:POST to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/element:POST with body: {"using":"name","value":"Logout"}
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"","status":7,"value":""}
+>> session.js:109:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:24]: {"sessionId":"","status":7,"value":""}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:24]: method: GET url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/screenshot, jsonBody: {}
+>> proxy.js:55:14 [master] pid:14468 Proxy: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc/screenshot:GET to http://localhost:8001/wd/hub/session/CF3A3A42-D0CD-449C-BD7E-E211E976A2F9/screenshot:GET with body: 
+>> proxy.js:85:20 [master] pid:14468 Got response with status 200: {"sessionId":"e23ac185-0a9e-4db0-86bc-b86fbd21b5bc","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABNoAAAigCAYAAADpkk+ZAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAARQAAAAKAAABFAAAARQAADqj3sfdZwAAEAASURBV...
+>> responseHandler.js:49:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:24]: {"sessionId":"e23ac185-0a9e-4db0-86bc-b86fbd21b5bc","status":0,"value":"\"iVBORw0KGgoAAAANSUhEUgAABNoAAAigCAYAAADpkk+ZAAAAAXNSR0IArs4c6QAAABxpRE9UAAAAAgAAAAAAAARQAAAAKAAABFAAAARQAADqj3sfdZwAAEAASURBVHgB7N0JvH1jvT/wwk2ZMmbqzy1CUdJAXUIDTURIUhnKkMIVrki5KkUldTUoRJl1UZGxJEMiZI4QCmUqY6Xorr/v/t91/uu3z1rPefbea+9zfue81+91XnufvZ691vO81z6/vfZnP8+znlFYCBAgQIAAAQIECBAgQIAAAQIECBAYWOAZA2/BBggQIECAAAECBAgQIECAAAECBAgQKARtXgQECBAgQIAAAQIECBAgQIAAAQIEWhAQtLWAaBMECBAgQIAAAQIECBAgQIAA..."}
+>> responseHandler.js:11:12 [master] pid:14468 Recieve HTTP Request from Client[2017-12-22 15:37:24]: method: DELETE url: /wd/hub/session/e23ac185-0a9e-4db0-86bc-b86fbd21b5bc, jsonBody: {}
+>> macaca-ios.js:377:10 [master] pid:14468 Stoping iOS driver...
+>> xctest-client.js:276:14 [master] pid:14468 killing deviceLogProc pid: 14500
+>> xctest-client.js:281:14 [master] pid:14468 killing runnerProc pid: 14491
+>> xctest-client.js:287:14 [master] pid:14468 killing iproxyProc pid: 14664
+>> macaca-ios.js:401:10 [master] pid:14468 iOS driver cleaned up.
+>> session.js:80:12 [master] pid:14468 Delete session, sessionId: e23ac185-0a9e-4db0-86bc-b86fbd21b5bc
+>> responseHandler.js:49:14 [master] pid:14468 Send HTTP Respone to Client[2017-12-22 15:37:24]: {"sessionId":"e23ac185-0a9e-4db0-86bc-b86fbd21b5bc","status":0}
+>> xctest-client.js:155:16 [master] pid:14468 devicelog exit with code: null, signal: SIGKILL
+>> xctest-client.js:231:14 [master] pid:14468 iproxy exit with code: null, signal: SIGKILL

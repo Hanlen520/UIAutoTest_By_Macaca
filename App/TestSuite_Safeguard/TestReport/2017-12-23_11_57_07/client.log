@@ -1,0 +1,144 @@
+2017-12-23 11:57:10,215 - 0642f8d6f0ec9d1a - INFO - platformName: Android
+2017-12-23 11:57:10,216 - 0642f8d6f0ec9d1a - INFO - udid: 0642f8d6f0ec9d1a
+2017-12-23 11:57:10,216 - 0642f8d6f0ec9d1a - INFO - macaca server port: 3465
+
+2017-12-23 11:57:12,214 - C4Y5T16810004018 - INFO - platformName: Android
+2017-12-23 11:57:12,215 - C4Y5T16810004018 - INFO - udid: C4Y5T16810004018
+2017-12-23 11:57:12,215 - C4Y5T16810004018 - INFO - macaca server port: 3466
+
+2017-12-23 11:57:31,920 - C4Y5T16810004018 - INFO - --> Bootstrap.setUpClass
+2017-12-23 11:57:31,921 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUpClass, Success
+
+2017-12-23 11:57:31,921 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:31,922 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:31,922 - C4Y5T16810004018 - INFO - --> Bootstrap.test01_login
+2017-12-23 11:57:36,102 - C4Y5T16810004018 - INFO - <-- Bootstrap.test01_login, Success
+
+2017-12-23 11:57:36,102 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:36,103 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:36,103 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:36,103 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:36,104 - C4Y5T16810004018 - INFO - --> Bootstrap.test02_erroe
+2017-12-23 11:57:37,180 - C4Y5T16810004018 - ERROR - WebDriverException, 
+Error: WebDriverError.INVALID_SELECTOR
+Message: Argument was an invalid selector (e.g. XPath/CSS).
+
+2017-12-23 11:57:37,180 - C4Y5T16810004018 - ERROR - <-- Bootstrap.test02_erroe, WebDriverException, Error
+
+2017-12-23 11:57:37,894 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:37,895 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:37,897 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:37,897 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:37,898 - C4Y5T16810004018 - INFO - --> Bootstrap.testCase1
+2017-12-23 11:57:37,898 - C4Y5T16810004018 - ERROR - AssertionError, 2 != 4 : testError
+2017-12-23 11:57:37,898 - C4Y5T16810004018 - ERROR - <-- Bootstrap.testCase1, AssertionError, Fail
+
+2017-12-23 11:57:38,597 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:38,597 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:38,598 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:38,598 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:38,598 - C4Y5T16810004018 - INFO - --> Bootstrap.testCase2
+2017-12-23 11:57:38,599 - C4Y5T16810004018 - ERROR - AssertionError, 3 != 5 : testError
+2017-12-23 11:57:38,599 - C4Y5T16810004018 - ERROR - <-- Bootstrap.testCase2, AssertionError, Fail
+
+2017-12-23 11:57:39,377 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:39,377 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:39,378 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:39,378 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:39,379 - C4Y5T16810004018 - INFO - --> Bootstrap.testCase3
+2017-12-23 11:57:39,379 - C4Y5T16810004018 - INFO - <-- Bootstrap.testCase3, Success
+
+2017-12-23 11:57:39,380 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:39,380 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:39,381 - C4Y5T16810004018 - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:39,381 - C4Y5T16810004018 - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:39,382 - C4Y5T16810004018 - INFO - --> Bootstrap.testCase4
+2017-12-23 11:57:39,382 - C4Y5T16810004018 - INFO - <-- Bootstrap.testCase4, Success
+
+2017-12-23 11:57:39,383 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:39,383 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:39,384 - C4Y5T16810004018 - INFO - --> Bootstrap.tearDownClass
+2017-12-23 11:57:39,384 - C4Y5T16810004018 - INFO - <-- Bootstrap.tearDownClass, Success
+
+2017-12-23 11:57:44,121 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUpClass
+2017-12-23 11:57:44,122 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUpClass, Success
+
+2017-12-23 11:57:44,122 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:44,122 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:44,122 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.test01_login
+2017-12-23 11:57:46,226 - 0642f8d6f0ec9d1a - ERROR - WebDriverException, 
+Error: WebDriverError.UNKNOWN_ERROR
+Message: An unknown server-side error occurred while processing the command.
+
+2017-12-23 11:57:46,226 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.test01_login, WebDriverException, Error
+
+2017-12-23 11:57:46,875 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:46,875 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:46,879 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:46,879 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:46,880 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.test02_erroe
+2017-12-23 11:57:48,264 - 0642f8d6f0ec9d1a - ERROR - WebDriverException, 
+Error: WebDriverError.INVALID_SELECTOR
+Message: Argument was an invalid selector (e.g. XPath/CSS).
+
+2017-12-23 11:57:48,264 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.test02_erroe, WebDriverException, Error
+
+2017-12-23 11:57:48,913 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:48,913 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:48,914 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:48,914 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:48,914 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.testCase1
+2017-12-23 11:57:48,915 - 0642f8d6f0ec9d1a - ERROR - AssertionError, 2 != 4 : testError
+2017-12-23 11:57:48,915 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.testCase1, AssertionError, Fail
+
+2017-12-23 11:57:49,528 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:49,528 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:49,529 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:49,529 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:49,529 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.testCase2
+2017-12-23 11:57:49,529 - 0642f8d6f0ec9d1a - ERROR - AssertionError, 3 != 5 : testError
+2017-12-23 11:57:49,530 - 0642f8d6f0ec9d1a - ERROR - <-- Bootstrap.testCase2, AssertionError, Fail
+
+2017-12-23 11:57:50,210 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:50,211 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:50,211 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:50,211 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:50,212 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.testCase3
+2017-12-23 11:57:50,212 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.testCase3, Success
+
+2017-12-23 11:57:50,212 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:50,212 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:50,213 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.setUp
+2017-12-23 11:57:50,213 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.setUp, Success
+
+2017-12-23 11:57:50,213 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.testCase4
+2017-12-23 11:57:50,213 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.testCase4, Success
+
+2017-12-23 11:57:50,214 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDown
+2017-12-23 11:57:50,214 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDown, Success
+
+2017-12-23 11:57:50,214 - 0642f8d6f0ec9d1a - INFO - --> Bootstrap.tearDownClass
+2017-12-23 11:57:50,215 - 0642f8d6f0ec9d1a - INFO - <-- Bootstrap.tearDownClass, Success
+
