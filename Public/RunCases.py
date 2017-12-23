@@ -1,5 +1,6 @@
 import os
 import time
+import shutil
 
 from Public.HTMLTestReportCN import HTMLTestRunner
 
@@ -33,4 +34,5 @@ class RunCases:
         with open(self.file_name, 'wb') as file:
             runner = HTMLTestRunner(stream=file, title=self.device['udid']+'自动化测试报告', description='用例执行情况：')
             runner.run(cases)
+            shutil.copyfile(self.file_name, './TestReport/TestReport.html')
 
