@@ -65,7 +65,7 @@ class Drivers:
         ports = Ports().get_ports(len(devices))
 
         if not len(devices):
-            print('there is no device connected this PC')
+            print('There is no device connected this PC')
             return
 
         runs = []
@@ -83,9 +83,10 @@ class Drivers:
                              args=(macaca_server.server_url(run.get_port()), run, cases,))
 
             # fix bug of macaca, android driver can not init in the same time
-            time.sleep(2)
-
+            time.sleep(4)
+        print('Waiting for all runs done........ ')
         pool.close()
         pool.join()
+        print('All runs done........ ')
 
         macaca_server.kill_macaca_server()

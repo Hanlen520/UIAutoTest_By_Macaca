@@ -29,11 +29,12 @@ class MacacaServer:
 
         for run in self._runs:
             pool.apply_async(self._run_server, args=(run,))
-
+        print('Wait for all servers done........')
         pool.close()
 
         # after start macaca server, macaca server process can not return, so should not join
-        # p.join()
+        # pool.join()
+        print('All servers done')
 
         for run in self._runs:
             while not self.is_running(run.get_port()):

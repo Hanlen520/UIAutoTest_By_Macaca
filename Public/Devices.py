@@ -19,8 +19,9 @@ class Devices:
             if s_value.rfind('device') != -1 and (not s_value.startswith("List")) and s_value != "":
                 android['platformName'] = 'Android'
                 android['udid'] = s_value[:s_value.find('device')].strip()
-                android['package'] = 'com.github.android_app_bootstrap'
-                android['activity'] = '.activity.WelcomeActivity'
+                android['app'] = '/Users/test/Desktop/android_app_bootstrap-debug.apk'
+                # android['package'] = 'com.github.android_app_bootstrap'
+                # android['activity'] = '.activity.WelcomeActivity'
 
                 devices.append(android)
 
